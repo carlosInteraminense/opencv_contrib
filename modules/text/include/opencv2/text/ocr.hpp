@@ -59,6 +59,7 @@ namespace text
 
 enum
 {
+    OCR_LEVEL_CHAR,
     OCR_LEVEL_WORD,
     OCR_LEVEL_TEXTLINE
 };

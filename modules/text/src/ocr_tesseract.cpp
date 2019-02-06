@@ -209,6 +209,8 @@ public:
             tesseract::PageIteratorLevel level = tesseract::RIL_WORD;
             if (component_level == OCR_LEVEL_TEXTLINE)
                 level = tesseract::RIL_TEXTLINE;
+            if (component_level == OCR_LEVEL_CHAR)
+            	level = tesseract::RIL_SYMBOL;
 
             if (ri != 0) {
                 do {
